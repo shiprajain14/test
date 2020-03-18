@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="0" name="com.mkyong.hashing.AppTest" time="0.315" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="IBM Corporation"/>
+    <property name="JOB_NAME" value="testMavenBuild"/>
+    <property name="PWD" value="/"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="JENKINS_HOME" value="/var/lib/jenkins"/>
+    <property name="PATH" value="/home/ibm-java-x86_64-80/bin:/sbin:/usr/sbin:/bin:/usr/bin"/>
+    <property name="HUDSON_SERVER_COOKIE" value="25e6baf0cab33fb7"/>
+    <property name="POM_ARTIFACTID" value="java-project"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.boot.class.path" value="/home/ibm-java-x86_64-80/jre/lib/amd64/compressedrefs/jclSC180/vm.jar:/home/ibm-java-x86_64-80/jre/lib/se-service.jar:/home/ibm-java-x86_64-80/jre/lib/cuda4j.jar:/home/ibm-java-x86_64-80/jre/lib/math.jar:/home/ibm-java-x86_64-80/jre/lib/ibmorb.jar:/home/ibm-java-x86_64-80/jre/lib/ibmorbapi.jar:/home/ibm-java-x86_64-80/jre/lib/ibmcfw.jar:/home/ibm-java-x86_64-80/jre/lib/ibmpkcs.jar:/home/ibm-java-x86_64-80/jre/lib/ibmcertpathfw.jar:/home/ibm-java-x86_64-80/jre/lib/ibmjgssfw.jar:/home/ibm-java-x86_64-80/jre/lib/ibmjssefw.jar:/home/ibm-java-x86_64-80/jre/lib/ibmsaslfw.jar:/home/ibm-java-x86_64-80/jre/lib/ibmjcefw.jar:/home/ibm-java-x86_64-80/jre/lib/ibmjgssprovider.jar:/home/ibm-java-x86_64-80/jre/lib/ibmjsseprovider2.jar:/home/ibm-java-x86_64-80/jre/lib/ibmcertpathprovider.jar:/home/ibm-java-x86_64-80/jre/lib/xmldsigfw.jar:/home/ibm-java-x86_64-80/jre/lib/xml.jar:/home/ibm-java-x86_64-80/jre/lib/charsets.jar:/home/ibm-java-x86_64-80/jre/lib/resources.jar:/home/ibm-java-x86_64-80/jre/lib/rt.jar:/home/ibm-java-x86_64-80/jre/lib/dataaccess.jar"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="java-project"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="8.0.5.15 - pxa6480sr5fp15-20180502_01(SR5 FP15)"/>
+    <property name="user.name" value="jenkins"/>
+    <property name="java.compiler" value="j9jit29"/>
+    <property name="os.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="com.ibm.util.extralibs.properties" value=""/>
+    <property name="com.ibm.jcl.checkClassPath" value=""/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="testMavenBuild"/>
+    <property name="com.ibm.oti.vm.bootstrap.library.path" value="/home/ibm-java-x86_64-80/jre/lib/amd64/compressedrefs:/home/ibm-java-x86_64-80/jre/lib/amd64"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://9.199.144.109:8080/job/testMavenBuild/18/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#18"/>
+    <property name="sun.boot.library.path" value="/home/ibm-java-x86_64-80/jre/lib/amd64/compressedrefs:/home/ibm-java-x86_64-80/jre/lib/amd64"/>
+    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="2813dde3ea0d34688cc6aabe934b09d2d75b467c"/>
+    <property name="java.version" value="1.8.0_171"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="com.ibm.system.agent.path" value="/home/ibm-java-x86_64-80/jre/lib/amd64"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="com.ibm.zero.version" value="2"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.endorsed.dirs" value="/home/ibm-java-x86_64-80/jre/lib/endorsed"/>
+    <property name="BUILD_ID" value="18"/>
+    <property name="com.ibm.oti.vm.library.version" value="29"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/home/maven/apache-maven-3.6.3/conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.home" value="/home/ibm-java-x86_64-80/jre"/>
+    <property name="java.vm.info" value="JRE 1.8.0 Linux amd64-64 Compressed References 20180425_385365 (JIT enabled, AOT enabled)
+OpenJ9   - a7ffbfe
+OMR      - a531219
+IBM      - 59ef3dc"/>
+    <property name="os.version" value="3.10.0-1062.12.1.el7.x86_64"/>
+    <property name="RUN_DISPLAY_URL" value="http://9.199.144.109:8080/job/testMavenBuild/18/display/redirect"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+    <property name="java.awt.fonts" value=""/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="2.9"/>
+    <property name="java.util.prefs.PreferencesFactory" value="java.util.prefs.FileSystemPreferencesFactory"/>
+    <property name="user.variant" value=""/>
+    <property name="GIT_PREVIOUS_COMMIT" value="2813dde3ea0d34688cc6aabe934b09d2d75b467c"/>
+    <property name="JOB_DISPLAY_URL" value="http://9.199.144.109:8080/job/testMavenBuild/display/redirect"/>
+    <property name="SHLVL" value="2"/>
+    <property name="_" value="/etc/alternatives/java"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="JAVA_HOME" value="/home/ibm-java-x86_64-80"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="ibm.signalhandling.sigint" value="true"/>
+    <property name="LOGNAME" value="jenkins"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="HOME" value="/var/lib/jenkins"/>
+    <property name="POM_GROUPID" value="com.mkyong.hashing"/>
+    <property name="user.home" value="/var/lib/jenkins"/>
+    <property name="BUILD_TAG" value="jenkins-testMavenBuild-18"/>
+    <property name="JENKINS_SERVER_COOKIE" value="25e6baf0cab33fb7"/>
+    <property name="com.ibm.cpu.endian" value="little"/>
+    <property name="HUDSON_URL" value="http://9.199.144.109:8080/"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="ibm.signalhandling.sigchain" value="true"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://www.ibm.com"/>
+    <property name="java.library.path" value="/home/ibm-java-x86_64-80/jre/lib/amd64/compressedrefs:/home/ibm-java-x86_64-80/jre/lib/amd64:/usr/lib64:/usr/lib"/>
+    <property name="java.vm.vendor" value="IBM Corporation"/>
+    <property name="java.fullversion" value="8.0.5.15 - pxa6480sr5fp15-20180502_01(SR5 FP15)
+JRE 1.8.0 Linux amd64-64 Compressed References 20180425_385365 (JIT enabled, AOT enabled)
+OpenJ9   - a7ffbfe
+OMR      - a531219
+IBM      - 59ef3dc"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="/home/maven/apache-maven-3.6.3"/>
+    <property name="java.class.path" value="/var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.13.jar:/home/maven/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar:/home/maven/apache-maven-3.6.3/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /home/maven/apache-maven-3.6.3 /var/cache/jenkins/war/WEB-INF/lib/remoting-3.36.1.jar /var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar /var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar 40946"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PATH+JDK" value="/home/ibm-java-x86_64-80/bin"/>
+    <property name="sun.java.launcher.pid" value="26115"/>
+    <property name="IBM_JAVA_COMMAND_LINE" value="/etc/alternatives/java -Dcom.sun.akuma.Daemon=daemonized -Djava.awt.headless=true -DJENKINS_HOME=/var/lib/jenkins -jar /usr/lib/jenkins/jenkins.war --logfile=/var/log/jenkins/jenkins.log --webroot=/var/cache/jenkins/war --daemon --httpPort=8080 --debug=5 --handlerCountMax=100 --handlerCountMaxIdle=20"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="/home/maven/apache-maven-3.6.3"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="HUDSON_HOME" value="/var/lib/jenkins"/>
+    <property name="PATH+MAVEN" value="/home/maven/apache-maven-3.6.3/bin"/>
+    <property name="BUILD_URL" value="http://9.199.144.109:8080/job/testMavenBuild/18/"/>
+    <property name="ibm.system.encoding" value="UTF-8"/>
+    <property name="ibm.signalhandling.rs" value="false"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.ext.dirs" value="/home/ibm-java-x86_64-80/jre/lib/ext"/>
+    <property name="user.dir" value="/home/nitin/mvnproj-hashing/java-project/java-project"/>
+    <property name="JOB_URL" value="http://9.199.144.109:8080/job/testMavenBuild/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="/home/maven/apache-maven-3.6.3"/>
+    <property name="java.vm.name" value="IBM J9 VM"/>
+    <property name="BUILD_NUMBER" value="18"/>
+    <property name="JENKINS_URL" value="http://9.199.144.109:8080/"/>
+    <property name="com.ibm.oti.shared.enabled" value="false"/>
+    <property name="GIT_BRANCH" value="origin/master"/>
+    <property name="com.ibm.vm.bitmode" value="64"/>
+    <property name="GIT_COMMIT" value="2813dde3ea0d34688cc6aabe934b09d2d75b467c"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="LANG" value="en_US.UTF-8"/>
+    <property name="maven3.interceptor" value="/var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE" value="/var/lib/jenkins/workspace/testMavenBuild"/>
+    <property name="maven3.interceptor.common" value="/var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar"/>
+    <property name="com.ibm.oti.configuration" value="scar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="USER" value="jenkins"/>
+    <property name="GIT_URL" value="https://github.com/shiprajain14/mvnproj-hashing.git"/>
+  </properties>
+  <testcase classname="com.mkyong.hashing.AppTest" name="testHex" time="0.315"/>
+  <testcase classname="com.mkyong.hashing.AppTest" name="testLength" time="0"/>
+</testsuite>
